@@ -3,11 +3,11 @@ from ultralytics import YOLO
 # Load the pretrained YOLO model
 model = YOLO("yolo26n.pt")
 
-# Detect objects in the sample image
-results = model.predict(
-    source="https://ultralytics.com/images/bus.jpg",
-    save=True
-)
+# Ask the user for an image path
+image_path = input("Enter the path of your image: ")
+
+# Detect objects in the image
+results = model.predict(source=image_path, save=True)
 
 # Display detected objects
 for result in results:
