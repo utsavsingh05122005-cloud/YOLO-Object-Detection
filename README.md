@@ -125,6 +125,9 @@ The program processes the video, displays the detections, and saves the annotate
 **Note:** Replace the example path with the actual path of your video file.
 
 ## Sample Detection Results
+### Image Detection
+
+![YOLO image detection result](screenshots/image_detection.jpg)
 
 The project has been tested with a sample bus image. The model detected:
 
