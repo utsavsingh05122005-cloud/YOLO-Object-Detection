@@ -169,3 +169,20 @@ GitHub: [utsavsingh05122005-cloud](https://github.com/utsavsingh05122005-cloud)
 ---
 
 *This project was developed for learning and experimentation with computer vision and deep learning.*
+
+- **Graphical User Interface (GUI):** Use a simple Tkinter interface to select images, process videos, and control webcam detection.
+
+### Run the GUI Application
+
+Launch the graphical interface with:
+
+```powershell
+python gui_detection.py
+```
+
+The GUI provides options to:
+- Select an image and detect objects.
+- Select a video and process it.
+- Start and stop real-time webcam detection.
+
+The detected image is displayed inside the application. Video and image detection outputs are saved in the `runs/detect` directory.
