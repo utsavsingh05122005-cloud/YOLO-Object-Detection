@@ -14,3 +14,5 @@ results = model.predict(
 )
 
 print("Video object detection completed successfully!")
+
+# python video_detection.py

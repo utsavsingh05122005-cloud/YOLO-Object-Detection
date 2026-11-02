@@ -17,5 +17,7 @@ for result in results:
         object_name = result.names[class_id]
 
         print(f"Object: {object_name}, Confidence: {confidence:.2f}")
-
+        
 print("Object detection completed successfully!")
+
+# python yolo_detection.py

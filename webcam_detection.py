@@ -13,3 +13,6 @@ results = model.predict(
 # Process webcam frames
 for result in results:
     pass
+
+
+# python yolo_detection.py
